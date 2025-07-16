@@ -8,23 +8,41 @@
 }
 
 body {
-    padding: 2rem;
-    font-family: "Poppins", sans-serif;
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(154, 127, 127, 0.4)),url(img1.jpg);
-    background-position: center;
-    background-size: cover;
-}
+  padding: 2rem;
+  font-family: "Lato", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  background-image: linear-gradient(rgba(0,0,0,0.40),rgba(154, 127, 127, 0.4)), url(images/backgroundImg.png);
+  background-position: center;
+  background-size: cover;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* horizontal centering */
+}
 
 h1 {
-text-align: center;
-color: white;
-font-style: normal;
-font-display: bold;
-font-size: 2.5rem;
+  text-align: center;
+  color: rgb(46, 46, 131);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: "Lato", sans-serif;
+
+  /* Top-center styling */
+  margin: auto;            /* Centers horizontally */
+  width: fit-content;           /* Makes the width just enough to wrap the text */
+  
+  /* Visual styles */
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 12px 24px;
+  border-radius: 10px;
+  border: 2px solid rgb(46, 46, 131);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+
+
 
 h3,
 header,
@@ -32,14 +50,15 @@ ul {
     margin-bottom: 0.5rem;
 }
 
-
 main {
-    max-width: 400px;
-    margin: 1rem auto;
-    background-color: rgb(214, 211, 211);
-    padding: 1rem;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 2rem auto; /* Center horizontally and add space from top */
+  background-color: rgb(214, 211, 211);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 
 header {
     background-color:rgb(46, 46, 131);
